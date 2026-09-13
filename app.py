@@ -1,7 +1,7 @@
 import re
 import streamlit as st
 
-st.title("Auto-Scrub: Digital Footprint Cleaner")
+st.title("SafePaste: Digital Footprint Cleaner")
 st.write("Paste your text below to automatically redact emails and phone numbers.")
 
 user_input = st.text_area("Input Text", placeholder="Paste text here...")
